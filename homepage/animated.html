@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- Main page title and favicon -->
+        <title>Crab Music - Animated music</title>
+        <link rel="icon" type="image/x-icon" href="icon3.png">
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function() {
+                // Newsletter contact info sent
+                document.querySelector('#nl-success').addEventListener('click', function() {
+                    alert('Suscription successful!');
+                    $('#r-nl').modal('hide');
+                });
+
+                // Toggle from 'About us' to 'Contact'
+                document.querySelector('#a-contact').addEventListener('click', function() {
+                    $('#tabs a[href="#contact"]').tab('show');
+                });
+
+                // Toggle from Footer to 'About us'
+                document.querySelector('#a-about').addEventListener('click', function() {
+                    $('#tabs a[href="#about"]').tab('show');
+                });
+
+                // 'Contact us' message successfully sent
+                document.querySelector('#ms-success').addEventListener('click', function() {
+                    alert('Message sent successfully! We will contact you as soon as possible!');
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+                <!-- Title on page -->
+        <div class="jumbotron">
+            <h1>Welcome to the realm of the Crab!</h1>
+            <h4 class="sub">A place to feed up your musical needs</h4>
+            <a href="https://www.instagram.com/" target="_blank"><img src="ig-icon.png" alt="ig" width="30" height="30" class="float-right icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="fb-icon.png" alt="fb" width="30" height="30" class="float-right icon"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="tt-icon.png" alt="tt" width="30" height="30" class="float-right icon"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="tw-icon.png" alt="tw" width="35" height="30" class="float-right icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="yt-icon.png" alt="yt" width="35" height="30" class="float-right icon"></a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Tabs -->
+                <div id="main" class="col-sm-10">
+                    <ul class="nav nav-tabs d-flex justify-content-around" id="tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" id="music-tab" href="#music">Animated Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" id="about-tab" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" id="donate-tab" href="#donate">Donate</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-toggle="tab" id="contact-tab" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- Music tab -->
+                        <div id="music" class="container tab-pane active">
+                            <div class="container rounded py-4" id="animated-header">
+                                <h2 class="text-center">Animated music</h2>
+                            </div><hr><br>
+                            <h5 class"text-center greet" style="color:#006666">We are glad that you are animated! Here are some songs you might like to listen to right now:</h5><br><hr>
+                            <div class="container pt-4">
+                                <iframe src="https://open.spotify.com/embed/track/0itnOxZv0jVH0E6PaV02RR?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/5AGy7y5onMvRM1Vd8QqJku?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/5GorBkISuzSRgEuiq3dJu6?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/5pqbHlHaVbkHJQlsAxhcZM?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/5YqcUZAQGqlADOuzRyJw84?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/3oqOrmpxlBKVWfhCVhbAgZ?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/4iaNw73mfCYwp46v9MW58N?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/4H3ZV1gtveBXnzEEtEmf4e?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/6aVBDNURTjnXsXN9x4w3VM?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/2pucDx5Wyz9uHCou4wntHa?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/0G3fbPbE1vGeABDEZF0jeG?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/68z36ZU2RgiB9VyafaBrqV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe><br><hr>
+                                <iframe src="https://open.spotify.com/embed/track/37cjy72zqnjI97ACS5xgpP?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            </div>
+                            <!-- Promotional text -->
+                            <div id="promo" class="container rounded-lg pt-4 pb-4">
+                                <h4 class="text-center">Discover tons of songs and artists that match just your mood!</h4>
+                            </div><br><br>
+                            <p class="text-center"><a href="index.html">&#8592 Return to homepage</a></p>
+                            <div id="newsletter" class="container py-3 box1">
+                                <h5 class="text-center">Wanna stay tuned?</h5><br>
+                                <h5 class="font-weight-bold text-center">
+                                    Suscribe to our
+                                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#r-nl">
+                                        Newsletter!
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <!-- Newsletter modal -->
+                            <div class="modal fade" id="r-nl">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Suscribe to our newsletter!</h4>
+                                            <button type="button" class="close" data-dismiss="modal">x</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#">
+                                                <div class="form-group">
+                                                    <label for="email">Email:</label>
+                                                    <input type="email" class="form-control" id="email-nl" placeholder="Enter email" name="email">
+                                                </div>
+                                                <div class="form-group form-check">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" name="receive">
+                                                        I want to receive notifications
+                                                    </label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary" id="nl-success">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About us tab -->
+                        <div id="about" class="container tab-pane fade">
+                            <br><h2>About us</h2><br>
+                            <div class="container rounded-lg box1 pt-4">
+                                <div class=row>
+                                    <div class="col-sm-8">
+                                        <h5>This is a site developed by an independent starter programmer, whose name is José Contreras. It was made to test his skills in HTML, CSS, Python and Bootstrap,
+                                        and also to bring right to your screen the best of his musical knowledge, which is presumed to be one of the finest.</h5><br>
+                                        <h5 class="font-weight-bold">If you want to know more about this developer, you can check the profile on the right and/or visit our <a href="#" id="a-contact">Contact us</a> tab.</h5><br><hr><br>
+                                        <img src="jazz-1.jpg" class="rounded-lg img-fluid" alt="Default Image">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="card">
+                                            <img class="card-img-top" src="fritaso.jpg" alt="Profile picture">
+                                            <div class="card-body cb">
+                                                <h4 class="card-title">José Contreras</h4>
+                                                <p class="card-text">
+                                                    I am a computer science student and graphic artist. I studied communication sciences at Universidad Iberoamericana, Mexico City and literature at Universidad del Claustro de Sor Juana. I have worked
+                                                    at the radio station Ibero 90.9 as a radio producer, and several other audio companies. In my free times I like to draw and paint both analogue and digital. Currently I'm studying computer science at
+                                                    edX and Harvard University's CS50 courses, and programming in Python and C# in Udemy. Check my profile for more information.
+                                                </p>
+                                                <a href="https://www.instagram.com/moloko.synthemesc/" class="btn btn-dark">See profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact us tab -->
+                        <div id="contact" class="container tab-pane fade pb-4">
+                            <br><h2>Contact us</h2><br><hr>
+                            <form action="#" class="was-validated">
+                                <div class="form-group">
+                                    <label for="email">Enter your email:</label>
+                                    <input type="email" class="form-control" id="email-contact" placeholder="Enter email" name="email" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">What can we do for you?</label>
+                                    <input type="text" class="form-control" id="message" placeholder="Write here your message" name="message">
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="receive">
+                                        I want to suscribe to the newsletter
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="ms-success">Submit</button><br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Genres side bar -->
+                <div id="genres" class="col-sm-2 pt-3 rounded-lg">
+                    <h3 id="genres-header">Genres</h3>
+                    <a href="#">Alternative rock</a><br>
+                    <a href="#">Avant-garde</a><br>
+                    <a href="#">Ballad</a><br>
+                    <a href="#">Blues</a><br>
+                    <a href="#">Country</a><br>
+                    <a href="#">Cumbia</a><br>
+                    <a href="#">Disco</a><br>
+                    <a href="#">Folk</a><br>
+                    <a href="#">Funk</a><br>
+                    <a href="#">Heavy metal</a><br>
+                    <a href="#">Hip-hop</a><br>
+                    <a href="#">House</a><br>
+                    <a href="#">Industrial</a><br>
+                    <a href="#">Jazz</a><br>
+                    <a href="#">New wave</a><br>
+                    <a href="#">Pop</a><br>
+                    <a href="#">Post punk</a><br>
+                    <a href="#">Punk rock</a><br>
+                    <a href="#">Rap</a><br>
+                    <a href="#">Reggaeton</a><br>
+                    <a href="#">Rock</a><br>
+                    <a href="#">Rockabilly</a><br>
+                    <a href="#">Salsa</a><br>
+                    <a href="#">Soul</a><br>
+                    <a href="#">Techno</a><br>
+                    <a href="#">Trap</a><br>
+                    <a href="#">Trip-hop</a><br>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer pt-4">
+            <h5 class="text-center">This site was developed by <a href="#" id="a-about" class="h-foot">José Contreras</a> with the assistance of:</h5>
+            <div class="container pt-2">
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="https://www.edx.org/?source=aw&awc=6798_1637786932_43cbe29afd09d654bdf825db3e73625f&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=712131_Greenroot+Media+">
+                            <img src="edx-icon.png" class="icon" alt="edX" width="100" height="50"><br>
+                            <p class="h-foot">edX</p>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href="https://www.harvard.edu/">
+                            <img src="hvd-icon.png" class="icon" alt="Harvard" width="50" height="60"><br>
+                            <p class="h-foot">Harvard University</p>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href="https://www.w3schools.com/">
+                            <img src="w3s-icon.png" class="icon" alt="W3Schools" width="60" height="60"><br>
+                            <p class="h-foot">W3Schools</p>
+                        </a>
+                    </div>
+                </div>
+            </div><hr>
+            <p class="text-center">
+                <a href="https://www.instagram.com/moloko.synthemesc/" class="h-foot">Moloko.Synthemesc &#169</a>, 2021.<br>All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>

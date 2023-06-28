@@ -1,0 +1,106 @@
+body {
+    background-color: #ccccff;
+}
+
+.tab-content {
+    background-color: #ffcccc;
+}
+
+.jumbotron {
+    background: url(crab-bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffcccc;
+    text-align: center;
+}
+
+.sub {
+    color: #ffcc00;
+}
+
+#genres {
+    background-color: #ffcc00;
+}
+
+#genres-header {
+    color: #ffffcc;
+}
+
+.nav-link {
+    background-color: #006666;
+    color: #ffffcc;
+}
+
+.nav-link:hover {
+    background-color: #003333;
+    color: #ffff00;
+}
+
+#promo {
+    background-color: black;
+    color: white;
+}
+
+.box1 {
+    background-color: #006666;
+    color: #ffffcc;
+}
+
+.box2 {
+    background-color: #004444;
+    color: #ffcc00;
+}
+
+#track-header {
+    background-color: black;
+    color: #ffffcc;
+}
+
+.icon:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+#a-contact {
+    color: #ffcc00;
+}
+
+#a-contact:hover {
+    color: #ffee22;
+}
+
+.cb {
+    color: #222222;
+}
+
+.h-foot {
+    color: #222222;
+}
+
+.h-foot:hover {
+    color: #444444;
+}
+
+#depressed-header {
+    background-color: #333333;
+    color: white;
+}
+
+#angry-header {
+    background-color: black;
+    color: red;
+}
+
+#animated-header {
+    background-color: #ffcc00;
+    color: #339966;
+}
+
+#party-header {
+    background-color: black;
+    color: #9966ff;
+}
+
+#relaxed-header {
+    background-color: #66ff99;
+    color: #002255;
+}
